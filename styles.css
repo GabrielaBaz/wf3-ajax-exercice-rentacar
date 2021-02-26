@@ -29,8 +29,8 @@ a {
 
 /* *********** Top Nav ************ */
 .top-nav {
-  width: 978px;
-  height: 25px;
+  width: 75%;
+  height: 2.5rem;
   margin: auto;
 }
 
@@ -46,7 +46,7 @@ a {
   /* margin-left: 75px; */
   padding: 0 35px;
   text-transform: uppercase;
-  font-size: 12px;
+  font-size: 1.2rem;
   font-weight: 200;
   text-align: center;
   border-left: 1px var(--dark-text-color) solid;
@@ -70,7 +70,7 @@ header {
   justify-content: space-between;
   align-items: center;
   height: 101px;
-  width: 978px;
+  width: 75%;
   margin: auto;
 }
 
@@ -84,7 +84,7 @@ header {
   margin-left: 3rem;
   text-transform: capitalize;
   font-weight: 600;
-  font-size: 1.2rem;
+  font-size: 1.6rem;
 }
 
 .header-nav a {
@@ -103,7 +103,7 @@ header {
   color: var(--light-text-color);
   height: 31px;
   text-align: center;
-  font-size: 15px;
+  font-size: 1.5rem;
   padding: 7px 0 7px;
 }
 
@@ -115,14 +115,30 @@ header {
 /**************** Main Section **************/
 
 .main {
-  width: 978px;
+  width: 75%;
   margin: auto;
   background-color: var(--light-background-color);
-  padding: 40px;
+  padding: 4rem;
 }
 
-.main h1 {
+.main-page-title {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.page-title {
   border-bottom: 1px var(--medium-background-color) solid;
   padding-bottom: 15px;
   font-weight: 700;
+}
+
+.page-subtitle {
+  color: var(--dark-text-color);
+}
+
+/* Forms */
+.form-box {
+  background-color: grey;
 }
