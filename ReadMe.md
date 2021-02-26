@@ -1,4 +1,4 @@
-###Implement a login form using AJAX
+# Implement a login form using AJAX
 
 This is a webpage made for my AJAX course at WF3 school.
 The model I am using for my exercise is the website of Europcar (United States).
