@@ -77,19 +77,19 @@
         <div class="form-box reg-user p-5">
           <h3>Registered Europcar customer?</h3>
 
-          <form id="reg-user-form" action="validate_form.php"  method="post">
+          <form id="reg-user-form" action="validate_form.php" method="post">
 
             <div class="my-5">
-            <label for="user_email" class="form-label">Email address </label><i class="fas fa-info-circle"></i>
-            <input type="email" id="user_email" name="user_email" class="form-control fs-4">
-            <div class="forgot"><a href="#"> Forgotten your login? </a></div>
+              <label for="user_email" class="form-label">Email address </label><i class="fas fa-info-circle"></i><span class="forgot" id="email-msg"></span>
+              <input type="text" id="user_email" name="user_email" class="form-control fs-4">
+              <div class="forgot"><a href="#"> Forgotten your login? </a></div>
             </div>
 
             <div class="my-5">
               <label for="user_pass" class="form-label">Your password </label><i class="fas fa-info-circle"></i>
               <input type="password" id="user_pass" name="user_pass" class="form-control fs-4">
               <div class="forgot"><a href="#">Forgotten your login?</a></div>
-              </div>
+            </div>
 
             <div class="mb-3 form-check">
               <input type="checkbox" class="form-check-input" id="stayCheck">
@@ -98,7 +98,7 @@
             </div>
 
             <div class="text-end">
-              <button class="yellow-button">LOGIN <i class="fas fa-arrow-circle-right"></i></button>
+              <button type="submit" class="yellow-button">LOGIN <i class="fas fa-arrow-circle-right"></i></button>
             </div>
 
           </form>
@@ -109,8 +109,7 @@
         <div class="form-box new-user p-5">
           <h3>New Europcar customer</h3>
 
-         <p>Create your account and benefit from faster booking and pick-up processes via the Europcar ID number</p>
-
+          <p>Create your account and benefit from faster booking and pick-up processes via the Europcar ID number</p>
 
         </div>
 
@@ -133,6 +132,6 @@
       integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
       crossorigin="anonymous"
     ></script>
-    <script src="script.js"></script>
+    <script src="main.js"></script>
   </body>
 </html>
