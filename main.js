@@ -1,5 +1,5 @@
 $(document).ready(function () {
-  $("#reg-user-form").submit(function (event) {
+  $("#reg-user-form").on("focusout", function (event) {
     event.preventDefault();
     // get the form data
     // there are many ways to get this data using jQuery (you can use the class or id also)
